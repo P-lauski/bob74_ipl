@@ -106,14 +106,6 @@ CreateThread(function()
 end)
 
 CreateThread(function()
-	while true do
-		SetRadarAsExteriorThisFrame()
-		SetRadarAsInteriorThisFrame(`h4_fake_islandx`, vec(4700.0, -5145.0), 0, 0)
-		Wait(0)
-	end
-end)
-
-CreateThread(function()
 	Wait(2500)
 	local islandLoaded = false
 	local islandCoords = vector3(4840.571, -5174.425, 2.0)
